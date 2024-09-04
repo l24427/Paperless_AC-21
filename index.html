@@ -178,6 +178,17 @@
                 }
             }
         }
+        
+        window.onload = function() {
+    var img = document.getElementById('herobrine');
+    img.onerror = function() {
+        document.getElementById('content').style.display = 'none';
+        alert('NAO APAGAR O HEROBRINE');
+    };
+    img.onload = function() {
+        document.getElementById('content').style.display = 'block';
+    };
+};
     </script>
 
 </body>
