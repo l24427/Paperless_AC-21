@@ -148,8 +148,8 @@ body {
     }
 }
 
-img#herobrine {
-    width: 1px;  
-    height: 1px;
+#herobrine {
+    width: 1px !important;  
+    height: 1px !important;
 }
     
